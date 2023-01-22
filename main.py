@@ -22,6 +22,12 @@ def plansza():
     print("\n")
 
 
+def walidacja_ruchu(x, y, mapa_1):
+    if mapa_1[x][y] == " ":
+        return "dozwolony"
+
+
+
 plansza()
 
 
